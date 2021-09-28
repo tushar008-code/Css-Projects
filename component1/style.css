@@ -1,0 +1,151 @@
+*,*::after,*::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Inter',sans-serif;
+padding:50px;
+}
+h1{
+  margin-bottom: 45px;
+  font-size:35px;
+  margin-top: 10px;
+  color:rgb(52, 52, 52);
+font-weight:normal;
+}
+
+.main{
+  margin:0 auto;
+  display:flex;
+  gap:10px;
+
+}
+.con{
+  background-color:red;
+  padding:30px;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:50px;
+
+  border-radius: 7px;
+  background: #FAFAFA;
+box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.con2{
+  padding:30px;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:50px;
+
+  border-radius: 7px;
+  background: #FAFAFA;
+box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.hea{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+.img1{
+  height:35px;
+  width:30px;
+}
+.but{
+  display:inline-block;
+padding: 10px 20px;
+text-align:center;
+background-color: white;
+border-radius:5px;
+border: none;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+color:rgb(52, 52, 52);
+text-transform: uppercase;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+.but2{
+  margin-left: 10px;
+  background-color:rgb(255, 102, 102);
+  color:white;
+transition: all 0.3s ease-in-out;
+}
+.but2:hover{
+  background-color:rgb(255, 78, 78);
+}
+.but2:active{
+  background-color:rgb(255, 60, 60);
+}
+.but1:hover{
+  background-color:rgb(242, 242, 242);
+}
+.but1:active{
+  background-color:rgb(209, 209, 209);
+}
+.but3{
+transition: all 0.3s ease-in-out;
+}
+.but3:hover{
+  background-color:rgb(242, 242, 242);
+}
+.but3:active{
+  background-color:rgb(209, 209, 209);
+}
+h2{
+  font-style: normal;
+font-weight: 500;
+font-size: 24px;
+text-transform:capitalize;
+}
+h2:first-child{
+  margin-bottom: 20px;
+  margin-top:5px;
+  color:rgb(133, 133, 133);
+}
+.hu{
+  font-size:18px;
+}
+.hu2{
+  margin:5px;
+  margin-left: 0;
+}
+.stu{
+  display: flex;
+  gap:10px;
+
+}
+.stat{
+  width: 532px;
+height: 19px;
+background-color: rgb(255, 102, 102);
+border-radius:3px;
+}
+.sm{
+  width: 390px;
+height: 19px;
+background-color: rgb(255, 36, 36);
+border-radius:3px;
+}
+.mb{
+  display:flex;
+  justify-content: space-between;
+}
+.ap{
+  margin:10px;
+  margin-left: 0;
+}
+.ll{
+  margin-right: 80px;
+}
+p{
+  text-transform:capitalize;
+}
+.ap p:first-child{
+  margin-bottom: 5px;
+}
+.ap p:last-child{
+  margin-bottom: 5px;
+}
